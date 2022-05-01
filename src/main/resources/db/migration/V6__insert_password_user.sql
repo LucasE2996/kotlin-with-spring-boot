@@ -1,0 +1,1 @@
+update forum_user set password = '$2a$12$oN4i5msvFCm4onINAuOeVOgJ5GiXgLOqDm1RyxiblzqkziGfBxW.i' where id = 1;
