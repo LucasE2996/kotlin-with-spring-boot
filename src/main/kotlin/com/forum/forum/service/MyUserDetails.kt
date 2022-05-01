@@ -7,7 +7,7 @@ class MyUserDetails(
     private val user: ForumUser
 ): UserDetails {
 
-    override fun getAuthorities() = null
+    override fun getAuthorities() = user.role
 
     override fun getPassword() = user.password
 

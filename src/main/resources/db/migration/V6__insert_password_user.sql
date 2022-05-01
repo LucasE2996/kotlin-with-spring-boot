@@ -1,1 +1,1 @@
-update forum_user set password = '$2a$12$oN4i5msvFCm4onINAuOeVOgJ5GiXgLOqDm1RyxiblzqkziGfBxW.i' where id = 1;
+update forum_user set password = '$2a$12$dbBHcQUDllb0Y/Hxc.qiMuKYnkxb3XSRUNoLYeeVWS.t.62f0/OQW' where id = 1;
