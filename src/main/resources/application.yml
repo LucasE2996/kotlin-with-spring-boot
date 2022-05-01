@@ -14,3 +14,5 @@ spring:
   h2:
     console:
       enabled: true
+jwt:
+  secret: secreto
