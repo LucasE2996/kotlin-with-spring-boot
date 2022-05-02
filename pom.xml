@@ -121,4 +121,21 @@
 		</plugins>
 	</build>
 
+	<profiles>
+		<profile>
+			<id>dev</id>
+			<properties>
+				<activateProperties>dev</activateProperties>
+			</properties>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+		</profile>
+		<profile>
+			<id>prod</id>
+			<properties>
+				<activateProperties>prod</activateProperties>
+			</properties>
+		</profile>
+	</profiles>
 </project>
