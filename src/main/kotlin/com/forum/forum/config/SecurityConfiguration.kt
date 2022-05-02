@@ -25,7 +25,7 @@ class SecurityConfiguration(
         http?.
         csrf()?.disable()?.
         authorizeRequests()?.
-//        antMatchers("/topics")?.hasAuthority("READ_WRITE")?.
+        antMatchers("/topics")?.hasAuthority("READ_ONLY")?.
         antMatchers(HttpMethod.POST,"/login")?.permitAll()?.
         anyRequest()?.authenticated()?.
         and()
